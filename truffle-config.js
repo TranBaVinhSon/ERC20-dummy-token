@@ -76,7 +76,7 @@ module.exports = {
       // production: true    // Treats this network as if it was a public net. (default: false)
     // }
     ganache: { // Ganache local test RPC blockchain
-      network_id: "5777",
+      network_id: "*", // Match any network id
       host: "localhost",
       port: 7545,
       gas: 6721975
